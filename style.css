@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    background-color: #353434;
+}
+
+body{
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.container {
+    width: 900px;
+    background: #353434;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.translator_property {
+    border: 1px solid #c7c7c783;
+    background-color: #353434;
+}
+
+.translator_property .nuv_item {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #9f9d9d;
+    padding: 0 20px;
+}
+
+.translator_property .nuv_item li select {
+    outline: none;
+    border-style: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #0a67e9;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    background-color: #353434;
+    font-size: 1.3em;
+}
+.translator_property .nuv_item li select:hover {
+    color: #111;
+    background-color: #3f3f3f;
+    
+}
+.bx-transfer {
+    font-size: 22px;
+    color: #9f9d9d;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    
+}
+.bx-transfer:hover {
+    color: #111;
+}
+
+.write_box {
+    display: flex;
+    background-color: #353434;
+}
+.Property_from, .Property_trans {
+    width: 100%;
+    position: relative;
+    background-color: #353434;
+}
+.write_box textarea {
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 1.7em;
+    color: #9f9d9d;
+    position: relative;
+}
+.write_box textarea:nth-child(1) {
+    border-right: 1px solid #9f9d9d;
+}
+.write_box .icons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: #9f9d9d;
+    background-color: #353434;
+}
+.icons .bx {
+    width: 35px;
+    height: 35px;
+    background: #353434;
+    text-align: center;
+    line-height: 35px;
+    font-size: 22px;
+    color: #9f9d9d;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}  
+.icons .bx:hover {
+    background: #606060;
+    color: wheat;
+} 
+.code_length {
+    font-size: 20px;
+    color: #9f9d9d;
+}
